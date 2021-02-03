@@ -1,0 +1,61 @@
+/** Parte 1 **/
+/** https://css-tricks.com/snippets/css/using-font-face/ **/
+/** https://www.fontget.com/font/in-your-face-joffrey/ **/
+@font-face {
+  font-family: 'In Your Face Joffrey!';
+  src: url('../font/In\ your\ face\,\ joffrey!.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+/** Usamos la fuente definida arriba **/
+body {
+  /* COMPLETAR ¿Qué falta?*/
+  font-family: 'In Your Face Joffrey!', sans-serif;
+}
+
+/** https://wpsites.net/web-design/add-different-background-image-to-cover-full-body-on-specific-page/ **/
+body.home {
+  /* COMPLETAR ¿Qué falta?*/
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.homelement{
+  width: 600px;
+  height: 209px;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#logo {
+  /* COMPLETAR ¿Qué falta?*/
+}
+
+button {
+  all: unset;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  /* COMPLETAR*/
+  color: #fff;
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+#lobby > img{
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
